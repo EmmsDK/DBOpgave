@@ -40,4 +40,13 @@ public class Bog {
     public void setForfatter(String forfatter) {
         this.forfatter = forfatter;
     }
+
+    @Override
+    public String toString() {
+        return "Bog{" +
+                "bogID=" + bogID + ", title='" + title + '\'' + ", forfatter='" + forfatter + '\'' + '}';
+    }
+
+    public void setBogId(int anInt) {
+    }
 }

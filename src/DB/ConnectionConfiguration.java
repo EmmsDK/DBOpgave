@@ -19,7 +19,7 @@ public class ConnectionConfiguration {
         }
 
         Connection connection = null;
-        String url = "jdbc:mysql://localhost/Bibliotek?\" + \"autoReconnect=true&useSSL=false";
+        String url = "jdbc:mysql://localhost/Bibliotek?" + "autoReconnect=true&useSSL=false";
         String user = "root";
         String password = pass;
         try{
